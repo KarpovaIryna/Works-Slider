@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import "normalize";
+@import "layout";
+@import "elements";
+@import "slick.scss";
+
+body{
+background-color: #ffffff;
+color: #000000;
+}
+h1{
+	font: 600 86px/1.05 'Poppins', sans-serif;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	&::after{
+		content: url(../img/traengula.svg);
+		position: absolute;
+		top:100px;
+		left: 0;
+	}
+	@media screen and (max-width:1024px){
+		font: 600 75px/1.05 'Poppins', sans-serif;
+		&::after{
+		top: 120px;
+		height: 10px;
+		width: 10px;
+		}
+	}
+	@media screen and (max-width:640px){
+		font: 600 46px/1.05 'Poppins', sans-serif;
+		&::after{
+			display: none;
+			}
+	}
+}
+h2{
+	font: 400 18px/1.07 'Poppins', sans-serif;
+	letter-spacing: 0.2em;
+	margin-top: 40px;
+	padding: 0 29px;
+	text-align: center;
+	position: relative;
+	&:after{
+		content: url(../img/plus.svg);
+		position:absolute;
+		right:205px;
+		top: -7px;
+		@media screen and (max-width:1024px){
+			right:105px;
+			top: 0px;
+		}
+		@media screen and (max-width:640px){
+			display: none;
+			}
+	}
+	@media screen and (max-width:1024px){
+		font: 400 18px/1.05 'Poppins', sans-serif;
+		}
+	}
+	@media screen and (max-width:640px){
+		font:400 18px/1.05 'Poppins', sans-serif;
+}
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+.ba-slick{
+	margin: 80px 0;
+	position: relative;
+	
+	@media screen and (max-width:1024px){
+		margin:40px 0;
+	}
+	&__arrow{
+		position: absolute;
+		z-index: 3;
+		height: 98px;
+		width: 98px;
+		outline: none;
+		border: none;
+		background: transparent;
+		@media screen and (max-width:768px){
+			display: none;
+		}
+		@media screen and (max-width:640px){
+			display: none;
+		}
+	}
+	&__image{
+		height: 100%;
+		padding: 0 15px;
+		object-fit: cover;
+	}
+	&__next{
+top:40%;
+right:0;
+	}
+	&__prev{
+		top:40%;
+		left:0;
+	}
+}
+.slick-treck{
+	height: 100%;
+}
+.slik-list, .slick-treck{
+	display:flex;
+	align-items: stretch;
+}
