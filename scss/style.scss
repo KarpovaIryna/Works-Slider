@@ -59,7 +59,7 @@ h2{
 		}
 	}
 	@media screen and (max-width:640px){
-		font:400 18px/1.05 'Poppins', sans-serif;
+		font: 400 18px/1.05 'Poppins', sans-serif;
 }
 /* Layout */
 .ba-container{
@@ -90,7 +90,7 @@ h2{
 		}
 	}
 	&__image{
-		height: 100%;
+		height: auto;
 		padding: 0 15px;
 		object-fit: cover;
 	}
@@ -102,11 +102,4 @@ right:0;
 		top:40%;
 		left:0;
 	}
-}
-.slick-treck{
-	height: 100%;
-}
-.slik-list, .slick-treck{
-	display:flex;
-	align-items: stretch;
 }

@@ -9,9 +9,10 @@
 	nextArrow: '.ba-slick__next',
 	centerMode: true,
 	centerPadding: '100px',
+	variableWidth: true,
 	responsive: [
 		{
-		  breakpoint: 1025,
+		  breakpoint: 1024,
 		  settings: {
 			 slidesToShow: 2,
 			 slidesToScroll: 1,

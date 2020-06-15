@@ -741,7 +741,7 @@ h2 {
       .ba-slick__arrow {
         display: none; } }
   .ba-slick__image {
-    height: 100%;
+    height: auto;
     padding: 0 15px;
     object-fit: cover; }
   .ba-slick__next {
@@ -750,12 +750,5 @@ h2 {
   .ba-slick__prev {
     top: 40%;
     left: 0; }
-
-.slick-treck {
-  height: 100%; }
-
-.slik-list, .slick-treck {
-  display: flex;
-  align-items: stretch; }
 
 /*# sourceMappingURL=style.css.map */
