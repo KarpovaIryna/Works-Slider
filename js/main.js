@@ -7,17 +7,14 @@
 	slidesToScroll: 1,
 	prevArrow: '.ba-slick__prev',
 	nextArrow: '.ba-slick__next',
-	centerMode: true,
-	centerPadding: '100px',
 	variableWidth: true,
+	adaptiveHeight:true,
 	responsive: [
 		{
 		  breakpoint: 1024,
 		  settings: {
 			 slidesToShow: 2,
 			 slidesToScroll: 1,
-			 infinite: true,
-			 centerPadding: '40px',
 		  }
 		},
 		{
@@ -25,8 +22,8 @@
 		  settings: {
 			 slidesToShow: 2,
 			 slidesToScroll: 2,
-			 centerPadding: '20px',
 			 arrows: false,
+			 TouchMove: true,
 		  }
 		},
 		{
@@ -34,10 +31,9 @@
 		  settings: {
 			 slidesToShow: 1,
 			 slidesToScroll: 1,
-			 centerPadding: '10px',
 			 arrows: false,
+			 TouchMove:true,
 		  }
 		}
 	 ]
  });
-

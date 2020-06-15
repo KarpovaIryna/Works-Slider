@@ -711,9 +711,6 @@ h2 {
     h2 {
       font: 400 18px/1.05 'Poppins', sans-serif; } }
 
-@media screen and (max-width: 640px) {
-  font: 400 18px/1.05 'Poppins', sans-serif; }
-
 /* Layout */
 .ba-container {
   padding-left: 20px;
@@ -741,9 +738,7 @@ h2 {
       .ba-slick__arrow {
         display: none; } }
   .ba-slick__image {
-    height: auto;
-    padding: 0 15px;
-    object-fit: cover; }
+    padding: 0 15px; }
   .ba-slick__next {
     top: 40%;
     right: 0; }
