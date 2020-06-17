@@ -723,7 +723,7 @@ h2 {
   @media screen and (max-width: 1024px) {
     .ba-slick {
       margin: 40px 0 0 90px; } }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     .ba-slick {
       margin: 20px 0; } }
   .ba-slick__arrow {
@@ -737,9 +737,6 @@ h2 {
     background: transparent;
     cursor: pointer; }
     @media screen and (max-width: 768px) {
-      .ba-slick__arrow {
-        display: none; } }
-    @media screen and (max-width: 640px) {
       .ba-slick__arrow {
         display: none; } }
   .ba-slick__next {

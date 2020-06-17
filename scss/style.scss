@@ -70,7 +70,7 @@ h2 {
   @media screen and (max-width: 1024px) {
     margin: 40px 0 0 90px;
   }
-  @media screen and (max-width:640px){
+  @media screen and (max-width:768px){
 	  margin: 20px 0;
   }
   &__arrow {
@@ -84,9 +84,6 @@ h2 {
 	 background: transparent;
 	 cursor: pointer;
     @media screen and (max-width: 768px) {
-      display: none;
-    }
-    @media screen and (max-width: 640px) {
       display: none;
     }
   }
