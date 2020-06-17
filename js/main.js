@@ -25,7 +25,7 @@
 		  }
 		},
 		{
-		  breakpoint: 769,
+		  breakpoint: 920git add,
 		  settings: {
 			slidesToShow: 1,
 			slidesToScroll: 1,
