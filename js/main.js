@@ -25,11 +25,23 @@
 		  }
 		},
 		{
-		  breakpoint: 768,
+		  breakpoint: 769,
 		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1,
 			 arrows: false,
 			 TouchMove: true,
 		  }
 		},
+		{
+			breakpoint: 545,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+				TouchMove: true,
+				variableWidth: false,
+			}
+		 },
 	 ]
  });
